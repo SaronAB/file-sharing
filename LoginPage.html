@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="MainPage.css">
+    <title>Vox Populi</title>
+</head>
+<body>
+Welcome to Vox Populi, <br> stay informed and make your voice heard!
+
+
+ <br><p><form action="SignIn.php" method="POST" >
+        <label> Username:<input type="text" name="usernameinput" />  </label>
+        <label> Password:<input type="text" name="passwordinput" /> </label> <br><br>
+        <div><input type="submit" value="Login" /></div>
+</form></p>
+<br> <br>
+
+<p><form action="NewsFeed.php" method="POST" >
+        <div><input type="submit" value="Continue as a non-registered user" /></div>
+</form></p>
+<br>
+<form action="NewUser.php" method="POST">
+    Register As A New User: <br>
+        <p><label> New Username: <input type="text" name="newusername" />  </label> <br>
+        <label> Password: <input type="text" name="newpassword1" /></label> <br>
+        <label> Retype Password: <input type="text" name="newpassword2" /> </label> <br>
+        <div><input type="submit" value="Create"/></div>
+    </form></p>
+</body>
+</html>
